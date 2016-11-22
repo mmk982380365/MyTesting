@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="136" height="26" alignment="left" text="Label" id="eQj-pb-veK">
+                            <color key="textColor" red="0.14836766979999999" green="0.96470588239999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" height="26" alignment="left" text="Label" id="BjY-7N-08Z">
+                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" height="26" alignment="left" text="Label" id="2Xt-Eo-9NJ">
+                            <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" height="26" alignment="left" text="Label" id="mUw-5x-GZg">
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" height="26" alignment="left" text="Label" id="8kx-qP-hih">
+                            <color key="textColor" red="0.4039215686" green="0.90588235289999997" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="djI-WA-fzT">
+                        <items>
+                            <menuItem title="播放" icon="play" id="zCm-G6-CfR">
+                                <connections>
+                                    <action selector="play" destination="AgC-eL-Hgc" id="FKl-9h-9uL"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="暂停" icon="pause" id="4Ut-4F-kJ8">
+                                <connections>
+                                    <action selector="pause" destination="AgC-eL-Hgc" id="CSB-4p-an2"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="上一首" icon="resume" id="ZAc-zS-10s">
+                                <connections>
+                                    <action selector="rewind" destination="AgC-eL-Hgc" id="SUO-iH-E9w"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="下一首" icon="more" id="dtB-oD-xgI">
+                                <connections>
+                                    <action selector="forward" destination="AgC-eL-Hgc" id="9fP-ky-mfd"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="activeLbl" destination="BjY-7N-08Z" id="Mn6-5d-fYc"/>
+                        <outlet property="freeLbl" destination="eQj-pb-veK" id="TJQ-sa-i5E"/>
+                        <outlet property="inactiveLbl" destination="2Xt-Eo-9NJ" id="B0R-MD-dOi"/>
+                        <outlet property="totalLbl" destination="8kx-qP-hih" id="qsH-Zw-T3r"/>
+                        <outlet property="wireLbl" destination="mUw-5x-GZg" id="vBR-lF-XcL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="344.5"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

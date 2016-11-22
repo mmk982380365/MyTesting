@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZipViewController">
+            <connections>
+                <outlet property="currentTimeLbl" destination="bKA-qv-aFW" id="Khk-rI-f5D"/>
+                <outlet property="pauseBtn" destination="mH2-Me-kL1" id="0tK-Zr-TdM"/>
+                <outlet property="playBtn" destination="tvq-eZ-903" id="fVx-lC-Dv0"/>
+                <outlet property="progressBar" destination="Tzv-mU-g9P" id="bvi-bI-pPv"/>
+                <outlet property="stopBtn" destination="DOX-Rv-jes" id="6EE-wa-juL"/>
+                <outlet property="totalTimeLbl" destination="Pr0-u0-64g" id="eEs-by-2pr"/>
+                <outlet property="view" destination="1pe-XA-1BW" id="vZF-IE-xkc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1pe-XA-1BW">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvq-eZ-903">
+                    <state key="normal" title="play"/>
+                    <connections>
+                        <action selector="play:" destination="-1" eventType="touchUpInside" id="jqv-S2-Wml"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mH2-Me-kL1">
+                    <state key="normal" title="pause"/>
+                    <connections>
+                        <action selector="pause:" destination="-1" eventType="touchUpInside" id="sbT-fA-Wnu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOX-Rv-jes">
+                    <state key="normal" title="stop"/>
+                    <connections>
+                        <action selector="stop:" destination="-1" eventType="touchUpInside" id="fRL-W9-F7m"/>
+                    </connections>
+                </button>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tzv-mU-g9P"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="           " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKA-qv-aFW">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="82" id="4aw-kv-Jaq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="           " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pr0-u0-64g">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="82" id="lHb-ML-WhW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Tzv-mU-g9P" firstAttribute="trailing" secondItem="DOX-Rv-jes" secondAttribute="trailing" id="4Gg-5i-9GK"/>
+                <constraint firstItem="bKA-qv-aFW" firstAttribute="baseline" secondItem="Pr0-u0-64g" secondAttribute="baseline" id="8hK-CI-D4A"/>
+                <constraint firstItem="bKA-qv-aFW" firstAttribute="leading" secondItem="1pe-XA-1BW" secondAttribute="leading" constant="16" id="9Mh-ZG-arP"/>
+                <constraint firstItem="Tzv-mU-g9P" firstAttribute="leading" secondItem="tvq-eZ-903" secondAttribute="leading" id="DXR-3B-cKj"/>
+                <constraint firstItem="bKA-qv-aFW" firstAttribute="firstBaseline" secondItem="Pr0-u0-64g" secondAttribute="firstBaseline" id="LPk-ez-y68"/>
+                <constraint firstItem="mH2-Me-kL1" firstAttribute="leading" secondItem="tvq-eZ-903" secondAttribute="trailing" constant="71" id="N1H-NJ-NMZ"/>
+                <constraint firstItem="tvq-eZ-903" firstAttribute="top" secondItem="bKA-qv-aFW" secondAttribute="bottom" constant="12" id="X7e-jo-QO6"/>
+                <constraint firstItem="mH2-Me-kL1" firstAttribute="top" secondItem="Tzv-mU-g9P" secondAttribute="bottom" constant="41" id="aZ8-yy-Ca3"/>
+                <constraint firstItem="mH2-Me-kL1" firstAttribute="baseline" secondItem="DOX-Rv-jes" secondAttribute="baseline" id="e2g-3y-QtG"/>
+                <constraint firstItem="mH2-Me-kL1" firstAttribute="centerX" secondItem="1pe-XA-1BW" secondAttribute="centerX" id="jVS-Ma-0Fh"/>
+                <constraint firstItem="tvq-eZ-903" firstAttribute="top" secondItem="mH2-Me-kL1" secondAttribute="top" id="oCZ-Yh-9TH"/>
+                <constraint firstItem="DOX-Rv-jes" firstAttribute="leading" secondItem="mH2-Me-kL1" secondAttribute="trailing" constant="75" id="oaZ-cA-RXU"/>
+                <constraint firstAttribute="trailing" secondItem="Pr0-u0-64g" secondAttribute="trailing" constant="16" id="sXX-eb-AKR"/>
+                <constraint firstAttribute="bottom" secondItem="tvq-eZ-903" secondAttribute="bottom" constant="21" id="sao-ZF-Gzk"/>
+                <constraint firstItem="bKA-qv-aFW" firstAttribute="top" secondItem="Tzv-mU-g9P" secondAttribute="bottom" constant="8" symbolic="YES" id="voj-yK-oAX"/>
+            </constraints>
+            <point key="canvasLocation" x="253.5" y="75.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  zlibttees
+//
+//  Created by MaMingkun on 16/9/30.
+//  Copyright © 2016年 MaMingkun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define API_URL @"https://route.showapi.com/"
+
+#define API_SECRET @"ec0b630d007645d2b38676a621a69254"
+#define API_APPID @"8552"
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+
+#import <MJExtension.h>
+#import <UIImageView+WebCache.h>
+
+#import "HTTPManager.h"
+#import "GobalData.h"
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
