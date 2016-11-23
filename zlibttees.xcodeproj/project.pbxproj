@@ -58,6 +58,14 @@
 		CB5D4F191D9E478F00F4AAB7 /* GobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5D4F181D9E478F00F4AAB7 /* GobalData.m */; };
 		CB5D4F1C1D9E4D2E00F4AAB7 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5D4F1B1D9E4D2E00F4AAB7 /* AudioPlayer.m */; };
 		CB5D4F1E1D9E651100F4AAB7 /* NaviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5D4F1D1D9E651100F4AAB7 /* NaviViewController.xib */; };
+		CB724AA91DE537DC0058DCF2 /* LayerMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB724AA71DE537DC0058DCF2 /* LayerMainViewController.m */; };
+		CB724AAA1DE537DC0058DCF2 /* LayerMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB724AA81DE537DC0058DCF2 /* LayerMainViewController.xib */; };
+		CB724AAE1DE539D30058DCF2 /* LayerEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB724AAC1DE539D30058DCF2 /* LayerEmitterViewController.m */; };
+		CB724AAF1DE539D30058DCF2 /* LayerEmitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB724AAD1DE539D30058DCF2 /* LayerEmitterViewController.xib */; };
+		CB724AB21DE53B4F0058DCF2 /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = CB724AB01DE53B4F0058DCF2 /* FFRing.png */; };
+		CB724AB31DE53B4F0058DCF2 /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = CB724AB11DE53B4F0058DCF2 /* FFTspark.png */; };
+		CB724ABF1DE541280058DCF2 /* LayerTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB724ABD1DE541280058DCF2 /* LayerTextViewController.m */; };
+		CB724AC01DE541280058DCF2 /* LayerTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB724ABE1DE541280058DCF2 /* LayerTextViewController.xib */; };
 		CB7751571D9B976B0009164D /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7751561D9B976B0009164D /* Speech.framework */; };
 		CB7751591D9B9E3B0009164D /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7751581D9B9E3B0009164D /* 11.mp3 */; };
 		CB78AEDB1D9E0992000C50BC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CB78AEDA1D9E0992000C50BC /* Podfile */; };
@@ -301,6 +309,17 @@
 		CB5D4F1A1D9E4D2E00F4AAB7 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
 		CB5D4F1B1D9E4D2E00F4AAB7 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		CB5D4F1D1D9E651100F4AAB7 /* NaviViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NaviViewController.xib; sourceTree = "<group>"; };
+		CB724AA61DE537DC0058DCF2 /* LayerMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerMainViewController.h; sourceTree = "<group>"; };
+		CB724AA71DE537DC0058DCF2 /* LayerMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerMainViewController.m; sourceTree = "<group>"; };
+		CB724AA81DE537DC0058DCF2 /* LayerMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerMainViewController.xib; sourceTree = "<group>"; };
+		CB724AAB1DE539D30058DCF2 /* LayerEmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerEmitterViewController.h; sourceTree = "<group>"; };
+		CB724AAC1DE539D30058DCF2 /* LayerEmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerEmitterViewController.m; sourceTree = "<group>"; };
+		CB724AAD1DE539D30058DCF2 /* LayerEmitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerEmitterViewController.xib; sourceTree = "<group>"; };
+		CB724AB01DE53B4F0058DCF2 /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		CB724AB11DE53B4F0058DCF2 /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
+		CB724ABC1DE541280058DCF2 /* LayerTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTextViewController.h; sourceTree = "<group>"; };
+		CB724ABD1DE541280058DCF2 /* LayerTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTextViewController.m; sourceTree = "<group>"; };
+		CB724ABE1DE541280058DCF2 /* LayerTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerTextViewController.xib; sourceTree = "<group>"; };
 		CB7751541D9B7D510009164D /* today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = today.entitlements; sourceTree = "<group>"; };
 		CB7751551D9B7D740009164D /* zlibttees.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zlibttees.entitlements; sourceTree = "<group>"; };
 		CB7751561D9B976B0009164D /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
@@ -700,6 +719,8 @@
 		CB78AEDE1D9E09E9000C50BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CB724AB01DE53B4F0058DCF2 /* FFRing.png */,
+				CB724AB11DE53B4F0058DCF2 /* FFTspark.png */,
 				CB4996BF1DD411DD004F2FA2 /* IMG_1671.jpg */,
 				CB50BB451DD2C3FD00CEE872 /* SimpleVertex.glsl */,
 				CB50BB461DD2C3FD00CEE872 /* SimpleFragment.glsl */,
@@ -925,9 +946,18 @@
 		CB7D17421DE43F1C00872856 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CB724AA61DE537DC0058DCF2 /* LayerMainViewController.h */,
+				CB724AA71DE537DC0058DCF2 /* LayerMainViewController.m */,
+				CB724AA81DE537DC0058DCF2 /* LayerMainViewController.xib */,
 				CB7D17481DE43F6700872856 /* LayerViewController.h */,
 				CB7D17491DE43F6700872856 /* LayerViewController.m */,
 				CB7D174A1DE43F6700872856 /* LayerViewController.xib */,
+				CB724AAB1DE539D30058DCF2 /* LayerEmitterViewController.h */,
+				CB724AAC1DE539D30058DCF2 /* LayerEmitterViewController.m */,
+				CB724AAD1DE539D30058DCF2 /* LayerEmitterViewController.xib */,
+				CB724ABC1DE541280058DCF2 /* LayerTextViewController.h */,
+				CB724ABD1DE541280058DCF2 /* LayerTextViewController.m */,
+				CB724ABE1DE541280058DCF2 /* LayerTextViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1340,6 +1370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB724AAF1DE539D30058DCF2 /* LayerEmitterViewController.xib in Resources */,
 				CBDB01901D9E38FF002AF6B7 /* MusicViewController.xib in Resources */,
 				CB50BB431DD2C3F500CEE872 /* item_powerup_fish.png in Resources */,
 				CB4C2D171D9B57CD0046D782 /* LaunchScreen.storyboard in Resources */,
@@ -1348,6 +1379,7 @@
 				CB5D4F1E1D9E651100F4AAB7 /* NaviViewController.xib in Resources */,
 				CB78AEDB1D9E0992000C50BC /* Podfile in Resources */,
 				CB5D4F161D9E445C00F4AAB7 /* MusicCell.xib in Resources */,
+				CB724AB21DE53B4F0058DCF2 /* FFRing.png in Resources */,
 				CB4996C21DD41626004F2FA2 /* test.obj in Resources */,
 				CB50BB471DD2C3FD00CEE872 /* SimpleVertex.glsl in Resources */,
 				CB50BB481DD2C3FD00CEE872 /* SimpleFragment.glsl in Resources */,
@@ -1357,10 +1389,13 @@
 				CB4996C01DD411DD004F2FA2 /* IMG_1671.jpg in Resources */,
 				CB7D174C1DE43F6700872856 /* LayerViewController.xib in Resources */,
 				CB0560C61D9D029C000F12D8 /* ZipViewController.xib in Resources */,
+				CB724AB31DE53B4F0058DCF2 /* FFTspark.png in Resources */,
 				CB0560BF1D9CFE20000F12D8 /* SpeechRecognizerViewController.xib in Resources */,
 				CBDB01881D9E1ACF002AF6B7 /* SearchMusicViewController.xib in Resources */,
 				CB958E681D9E40CF004B299D /* HotDetailViewController.xib in Resources */,
 				CB4C2D121D9B57CD0046D782 /* Main.storyboard in Resources */,
+				CB724AAA1DE537DC0058DCF2 /* LayerMainViewController.xib in Resources */,
+				CB724AC01DE541280058DCF2 /* LayerTextViewController.xib in Resources */,
 				CB50BB441DD2C3F500CEE872 /* tile_floor.png in Resources */,
 				CB7751591D9B9E3B0009164D /* 11.mp3 in Resources */,
 			);
@@ -1495,16 +1530,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB50BB181DD2C04300CEE872 /* OpenGLViewController.m in Sources */,
+				CB724AAE1DE539D30058DCF2 /* LayerEmitterViewController.m in Sources */,
 				CB50BB5B1DD2D6BB00CEE872 /* OpenGLWaveFrontGroup.m in Sources */,
 				CB50BB5D1DD2D6BB00CEE872 /* OpenGLWaveFrontObject.m in Sources */,
 				CBDB01871D9E1ACF002AF6B7 /* SearchMusicViewController.m in Sources */,
 				CB5D4F1C1D9E4D2E00F4AAB7 /* AudioPlayer.m in Sources */,
+				CB724AA91DE537DC0058DCF2 /* LayerMainViewController.m in Sources */,
 				CB50BB5A1DD2D6BB00CEE872 /* OpenGLTexture3D.m in Sources */,
 				CB5D4F191D9E478F00F4AAB7 /* GobalData.m in Sources */,
 				CBDB018B1D9E1B9D002AF6B7 /* MusicModel.m in Sources */,
 				CBDB01821D9E1A95002AF6B7 /* HotMusicViewController.m in Sources */,
 				CB958E611D9E3E0C004B299D /* MusicBar.m in Sources */,
 				CB0560BE1D9CFE20000F12D8 /* SpeechRecognizerViewController.m in Sources */,
+				CB724ABF1DE541280058DCF2 /* LayerTextViewController.m in Sources */,
 				CB0560C21D9CFFBD000F12D8 /* ZipViewController.m in Sources */,
 				CB0560AF1D9CFBFA000F12D8 /* NaviViewController.m in Sources */,
 				CB4996BE1DD4111D004F2FA2 /* ObjLoaderViewController.m in Sources */,

@@ -12,7 +12,7 @@
 #import "MusicHomeViewController.h"
 #import "OpenGLViewController.h"
 #import "ObjLoaderViewController.h"
-#import "LayerViewController.h"
+#import "LayerMainViewController.h"
 
 @interface NaviViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -64,7 +64,7 @@
     
     NSDictionary *layerTest = @{
                                 @"title":@"图层动画",
-                                @"class":[LayerViewController class],
+                                @"class":[LayerMainViewController class],
                                 };
     
     self.dataArray = @[speech,zip,music,openGL,objLoader,layerTest];
