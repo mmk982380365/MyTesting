@@ -104,7 +104,7 @@
     animation.keyTimes = @[[NSNumber numberWithFloat:0.0],[NSNumber numberWithFloat:1.0],];
 //    animation.duration = 15;
 //    animation.repeatCount = CGFLOAT_MAX;
-//    [self.penLayer addAnimation:animation forKey:@"aniasfu"];
+    
     
     
     CAKeyframeAnimation *animation2 = [CAKeyframeAnimation animationWithKeyPath:@"shadowOffset.height"];
