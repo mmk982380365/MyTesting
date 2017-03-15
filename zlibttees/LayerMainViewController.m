@@ -10,6 +10,7 @@
 #import "LayerViewController.h"
 #import "LayerEmitterViewController.h"
 #import "LayerTextViewController.h"
+#import "LayerAnimationViewController.h"
 
 @interface LayerMainViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -22,11 +23,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+//    self.tabBarController.hidesBottomBarWhenPushed = YES;
+    
+    
     
     self.dataArray = @[
                        @{@"title":@"文字layer",@"class":[LayerViewController class]},
                        @{@"title":@"EmitterLayer",@"class":[LayerEmitterViewController class]},
                        @{@"title":@"文字动画",@"class":[LayerTextViewController class]},
+                       @{@"title":@"layer动画",@"class":[LayerAnimationViewController class]},
                        ];
     
 }

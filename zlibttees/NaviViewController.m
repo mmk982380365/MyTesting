@@ -13,6 +13,10 @@
 #import "OpenGLViewController.h"
 #import "ObjLoaderViewController.h"
 #import "LayerMainViewController.h"
+#import "NetworkConfigurationViewController.h"
+#import "ContactViewController.h"
+#import "PingViewController.h"
+#import <zlibttees-swift.h>
 
 @interface NaviViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -67,7 +71,31 @@
                                 @"class":[LayerMainViewController class],
                                 };
     
-    self.dataArray = @[speech,zip,music,openGL,objLoader,layerTest];
+    NSDictionary *networkConfig = @{
+                                @"title":@"网络信息",
+                                @"class":[NetworkConfigurationViewController class],
+                                };
+    
+    NSDictionary *contact = @{
+                              @"title":@"联系人",
+                              @"class":[ContactViewController class],
+                              };
+    
+    NSDictionary *pingTool = @{
+                               @"title":@"ping小工具",
+                               @"class":[PingViewController class],
+                               };
+    NSDictionary *puzzle = @{
+                             @"title":@"开关灯小谜题",
+                             @"class":[PuzzleViewController class],
+                             };
+    
+    NSDictionary *metal = @{
+                            @"title":@"Metal Testing",
+                            @"class":[MySceneViewController class],
+                            };
+    
+    self.dataArray = @[speech,zip,music,openGL,objLoader,layerTest,networkConfig,contact,pingTool,puzzle,metal];
     
     [self.tableView reloadData];
 }

@@ -17,6 +17,27 @@
 		CB0560C61D9D029C000F12D8 /* ZipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0560C51D9D029C000F12D8 /* ZipViewController.xib */; };
 		CB1161B11D9CE7CB00BBF2B6 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1161B01D9CE7CB00BBF2B6 /* ProgressView.m */; };
 		CB18A8F81D9CC6D500049D45 /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CB18A8F71D9CC6D500049D45 /* SystemInfo.m */; };
+		CB24339F1E1F71C30058CEC8 /* LayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB24339D1E1F71C30058CEC8 /* LayerAnimationViewController.m */; };
+		CB2433A01E1F71C30058CEC8 /* LayerAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB24339E1E1F71C30058CEC8 /* LayerAnimationViewController.xib */; };
+		CB2433A31E1F73720058CEC8 /* LayerTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2433A21E1F73720058CEC8 /* LayerTestView.m */; };
+		CB2433A71E1F856B0058CEC8 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2433A61E1F856B0058CEC8 /* SimplePing.m */; };
+		CB2433AE1E1F85CA0058CEC8 /* PingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2433AD1E1F85CA0058CEC8 /* PingItem.m */; };
+		CB2433B11E1F874A0058CEC8 /* PingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2433B01E1F874A0058CEC8 /* PingServices.m */; };
+		CB2433B51E1F89840058CEC8 /* PingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2433B31E1F89840058CEC8 /* PingViewController.m */; };
+		CB2433B61E1F89840058CEC8 /* PingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2433B41E1F89840058CEC8 /* PingViewController.xib */; };
+		CB321EAC1E7946B4001A87B4 /* cube.png in Resources */ = {isa = PBXBuildFile; fileRef = CB321E9E1E7946B4001A87B4 /* cube.png */; };
+		CB321EAD1E7946B4001A87B4 /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA01E7946B4001A87B4 /* Matrix4.m */; };
+		CB321EAE1E7946B4001A87B4 /* MetalTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA11E7946B4001A87B4 /* MetalTexture.swift */; };
+		CB321EB01E7946B4001A87B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA31E7946B4001A87B4 /* ViewController.swift */; };
+		CB321EB11E7946B4001A87B4 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA41E7946B4001A87B4 /* MetalViewController.swift */; };
+		CB321EB21E7946B4001A87B4 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA51E7946B4001A87B4 /* Vertex.swift */; };
+		CB321EB31E7946B4001A87B4 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA61E7946B4001A87B4 /* Light.swift */; };
+		CB321EB41E7946B4001A87B4 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA71E7946B4001A87B4 /* Node.swift */; };
+		CB321EB51E7946B4001A87B4 /* BufferProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA81E7946B4001A87B4 /* BufferProvider.swift */; };
+		CB321EB61E7946B4001A87B4 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EA91E7946B4001A87B4 /* Triangle.swift */; };
+		CB321EB71E7946B4001A87B4 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB321EAA1E7946B4001A87B4 /* Cube.swift */; };
+		CB321EB81E7946B4001A87B4 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = CB321EAB1E7946B4001A87B4 /* Shader.metal */; };
+		CB41CC5A1E45B26A002358C2 /* PuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41CC591E45B26A002358C2 /* PuzzleViewController.swift */; };
 		CB4996BE1DD4111D004F2FA2 /* ObjLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4996BD1DD4111D004F2FA2 /* ObjLoaderViewController.m */; };
 		CB4996C01DD411DD004F2FA2 /* IMG_1671.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB4996BF1DD411DD004F2FA2 /* IMG_1671.jpg */; };
 		CB4996C21DD41626004F2FA2 /* test.obj in Resources */ = {isa = PBXBuildFile; fileRef = CB4996C11DD41626004F2FA2 /* test.obj */; };
@@ -68,6 +89,9 @@
 		CB724AC01DE541280058DCF2 /* LayerTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB724ABE1DE541280058DCF2 /* LayerTextViewController.xib */; };
 		CB7751571D9B976B0009164D /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7751561D9B976B0009164D /* Speech.framework */; };
 		CB7751591D9B9E3B0009164D /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB7751581D9B9E3B0009164D /* 11.mp3 */; };
+		CB7765C31E03ED0900303594 /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7765C21E03ED0900303594 /* ConfigManager.m */; };
+		CB7765C71E03ED1E00303594 /* NetworkConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7765C51E03ED1E00303594 /* NetworkConfigurationViewController.m */; };
+		CB7765C81E03ED1E00303594 /* NetworkConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7765C61E03ED1E00303594 /* NetworkConfigurationViewController.xib */; };
 		CB78AEDB1D9E0992000C50BC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CB78AEDA1D9E0992000C50BC /* Podfile */; };
 		CB78AEF41D9E0B77000C50BC /* HTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB78AEF31D9E0B77000C50BC /* HTTPManager.m */; };
 		CB78AEFD1D9E1840000C50BC /* MusicHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB78AEFB1D9E1840000C50BC /* MusicHomeViewController.m */; };
@@ -101,6 +125,14 @@
 		CBDB018B1D9E1B9D002AF6B7 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDB018A1D9E1B9D002AF6B7 /* MusicModel.m */; };
 		CBDB018F1D9E38FF002AF6B7 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDB018D1D9E38FF002AF6B7 /* MusicViewController.m */; };
 		CBDB01901D9E38FF002AF6B7 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBDB018E1D9E38FF002AF6B7 /* MusicViewController.xib */; };
+		CBE22DB81E1E2124003C14A5 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DB71E1E2124003C14A5 /* ContactViewController.m */; };
+		CBE22DBB1E1E23DA003C14A5 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DBA1E1E23DA003C14A5 /* ContactCell.m */; };
+		CBE22DBE1E1E2403003C14A5 /* ContactCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DBD1E1E2403003C14A5 /* ContactCircleView.m */; };
+		CBE22DC11E1E2C9B003C14A5 /* ContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DC01E1E2C9B003C14A5 /* ContactInfo.m */; };
+		CBE22DC51E1E4351003C14A5 /* MKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DC41E1E4351003C14A5 /* MKActionSheet.m */; };
+		CBE22DCD1E1E6706003C14A5 /* MovedNavigationBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DCB1E1E6706003C14A5 /* MovedNavigationBarController.m */; };
+		CBE22DCE1E1E6706003C14A5 /* MovedNavigationBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE22DCC1E1E6706003C14A5 /* MovedNavigationBarController.xib */; };
+		CBE22DD11E1E681C003C14A5 /* UINavigationBar+SizeableHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE22DD01E1E681C003C14A5 /* UINavigationBar+SizeableHeight.m */; };
 		CBF5295E1D9D0ED000011784 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF5295C1D9D0ED000011784 /* Interface.storyboard */; };
 		CBF529601D9D0ED000011784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF5295F1D9D0ED000011784 /* Assets.xcassets */; };
 		CBF529671D9D0ED000011784 /* watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBF529661D9D0ED000011784 /* watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -242,6 +274,35 @@
 		CB1161B01D9CE7CB00BBF2B6 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		CB18A8F61D9CC6D500049D45 /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
 		CB18A8F71D9CC6D500049D45 /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		CB24339C1E1F71C30058CEC8 /* LayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationViewController.h; sourceTree = "<group>"; };
+		CB24339D1E1F71C30058CEC8 /* LayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationViewController.m; sourceTree = "<group>"; };
+		CB24339E1E1F71C30058CEC8 /* LayerAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerAnimationViewController.xib; sourceTree = "<group>"; };
+		CB2433A11E1F73720058CEC8 /* LayerTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTestView.h; sourceTree = "<group>"; };
+		CB2433A21E1F73720058CEC8 /* LayerTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTestView.m; sourceTree = "<group>"; };
+		CB2433A51E1F856B0058CEC8 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		CB2433A61E1F856B0058CEC8 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		CB2433AC1E1F85CA0058CEC8 /* PingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingItem.h; sourceTree = "<group>"; };
+		CB2433AD1E1F85CA0058CEC8 /* PingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingItem.m; sourceTree = "<group>"; };
+		CB2433AF1E1F874A0058CEC8 /* PingServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingServices.h; sourceTree = "<group>"; };
+		CB2433B01E1F874A0058CEC8 /* PingServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingServices.m; sourceTree = "<group>"; };
+		CB2433B21E1F89840058CEC8 /* PingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingViewController.h; sourceTree = "<group>"; };
+		CB2433B31E1F89840058CEC8 /* PingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingViewController.m; sourceTree = "<group>"; };
+		CB2433B41E1F89840058CEC8 /* PingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PingViewController.xib; sourceTree = "<group>"; };
+		CB321E9E1E7946B4001A87B4 /* cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube.png; sourceTree = "<group>"; };
+		CB321E9F1E7946B4001A87B4 /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		CB321EA01E7946B4001A87B4 /* Matrix4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix4.m; sourceTree = "<group>"; };
+		CB321EA11E7946B4001A87B4 /* MetalTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTexture.swift; sourceTree = "<group>"; };
+		CB321EA31E7946B4001A87B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB321EA41E7946B4001A87B4 /* MetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		CB321EA51E7946B4001A87B4 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		CB321EA61E7946B4001A87B4 /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		CB321EA71E7946B4001A87B4 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		CB321EA81E7946B4001A87B4 /* BufferProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferProvider.swift; sourceTree = "<group>"; };
+		CB321EA91E7946B4001A87B4 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		CB321EAA1E7946B4001A87B4 /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		CB321EAB1E7946B4001A87B4 /* Shader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		CB41CC581E45B26A002358C2 /* zlibttees-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zlibttees-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB41CC591E45B26A002358C2 /* PuzzleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleViewController.swift; sourceTree = "<group>"; };
 		CB4996BC1DD4111D004F2FA2 /* ObjLoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjLoaderViewController.h; sourceTree = "<group>"; };
 		CB4996BD1DD4111D004F2FA2 /* ObjLoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjLoaderViewController.m; sourceTree = "<group>"; };
 		CB4996BF1DD411DD004F2FA2 /* IMG_1671.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1671.jpg; sourceTree = "<group>"; };
@@ -324,6 +385,12 @@
 		CB7751551D9B7D740009164D /* zlibttees.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zlibttees.entitlements; sourceTree = "<group>"; };
 		CB7751561D9B976B0009164D /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
 		CB7751581D9B9E3B0009164D /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+		CB7765C11E03ED0900303594 /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
+		CB7765C21E03ED0900303594 /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
+		CB7765C41E03ED1E00303594 /* NetworkConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfigurationViewController.h; sourceTree = "<group>"; };
+		CB7765C51E03ED1E00303594 /* NetworkConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfigurationViewController.m; sourceTree = "<group>"; };
+		CB7765C61E03ED1E00303594 /* NetworkConfigurationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkConfigurationViewController.xib; sourceTree = "<group>"; };
+		CB7765C91E03F3D700303594 /* PPSRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSRoute.h; sourceTree = "<group>"; };
 		CB78AEDA1D9E0992000C50BC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB78AEF21D9E0B77000C50BC /* HTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPManager.h; sourceTree = "<group>"; };
 		CB78AEF31D9E0B77000C50BC /* HTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPManager.m; sourceTree = "<group>"; };
@@ -379,6 +446,21 @@
 		CBDB018C1D9E38FF002AF6B7 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		CBDB018D1D9E38FF002AF6B7 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		CBDB018E1D9E38FF002AF6B7 /* MusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+		CBE22DB61E1E2124003C14A5 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		CBE22DB71E1E2124003C14A5 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		CBE22DB91E1E23DA003C14A5 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		CBE22DBA1E1E23DA003C14A5 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		CBE22DBC1E1E2403003C14A5 /* ContactCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCircleView.h; sourceTree = "<group>"; };
+		CBE22DBD1E1E2403003C14A5 /* ContactCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCircleView.m; sourceTree = "<group>"; };
+		CBE22DBF1E1E2C9B003C14A5 /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		CBE22DC01E1E2C9B003C14A5 /* ContactInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfo.m; sourceTree = "<group>"; };
+		CBE22DC31E1E4351003C14A5 /* MKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKActionSheet.h; sourceTree = "<group>"; };
+		CBE22DC41E1E4351003C14A5 /* MKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKActionSheet.m; sourceTree = "<group>"; };
+		CBE22DCA1E1E6706003C14A5 /* MovedNavigationBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovedNavigationBarController.h; sourceTree = "<group>"; };
+		CBE22DCB1E1E6706003C14A5 /* MovedNavigationBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovedNavigationBarController.m; sourceTree = "<group>"; };
+		CBE22DCC1E1E6706003C14A5 /* MovedNavigationBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovedNavigationBarController.xib; sourceTree = "<group>"; };
+		CBE22DCF1E1E681C003C14A5 /* UINavigationBar+SizeableHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SizeableHeight.h"; sourceTree = "<group>"; };
+		CBE22DD01E1E681C003C14A5 /* UINavigationBar+SizeableHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SizeableHeight.m"; sourceTree = "<group>"; };
 		CBF5295A1D9D0ED000011784 /* watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF5295D1D9D0ED000011784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		CBF5295F1D9D0ED000011784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -468,6 +550,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB2433A41E1F855F0058CEC8 /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				CB2433A51E1F856B0058CEC8 /* SimplePing.h */,
+				CB2433A61E1F856B0058CEC8 /* SimplePing.m */,
+			);
+			name = SimplePing;
+			sourceTree = "<group>";
+		};
+		CB2433A81E1F85940058CEC8 /* PingTool */ = {
+			isa = PBXGroup;
+			children = (
+				CB2433AB1E1F85A20058CEC8 /* Model */,
+				CB2433AA1E1F85A10058CEC8 /* View */,
+				CB2433A91E1F859E0058CEC8 /* ViewController */,
+			);
+			name = PingTool;
+			sourceTree = "<group>";
+		};
+		CB2433A91E1F859E0058CEC8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB2433B21E1F89840058CEC8 /* PingViewController.h */,
+				CB2433B31E1F89840058CEC8 /* PingViewController.m */,
+				CB2433B41E1F89840058CEC8 /* PingViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CB2433AA1E1F85A10058CEC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB2433AB1E1F85A20058CEC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB2433AC1E1F85CA0058CEC8 /* PingItem.h */,
+				CB2433AD1E1F85CA0058CEC8 /* PingItem.m */,
+				CB2433AF1E1F874A0058CEC8 /* PingServices.h */,
+				CB2433B01E1F874A0058CEC8 /* PingServices.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB321E9D1E7946A3001A87B4 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				CB321E9E1E7946B4001A87B4 /* cube.png */,
+				CB321E9F1E7946B4001A87B4 /* Matrix4.h */,
+				CB321EA01E7946B4001A87B4 /* Matrix4.m */,
+				CB321EA11E7946B4001A87B4 /* MetalTexture.swift */,
+				CB321EA31E7946B4001A87B4 /* ViewController.swift */,
+				CB321EA41E7946B4001A87B4 /* MetalViewController.swift */,
+				CB321EA51E7946B4001A87B4 /* Vertex.swift */,
+				CB321EA61E7946B4001A87B4 /* Light.swift */,
+				CB321EA71E7946B4001A87B4 /* Node.swift */,
+				CB321EA81E7946B4001A87B4 /* BufferProvider.swift */,
+				CB321EA91E7946B4001A87B4 /* Triangle.swift */,
+				CB321EAA1E7946B4001A87B4 /* Cube.swift */,
+				CB321EAB1E7946B4001A87B4 /* Shader.metal */,
+			);
+			name = Metal;
+			sourceTree = "<group>";
+		};
+		CB41CC561E45B239002358C2 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				CB41CC571E45B247002358C2 /* ViewController */,
+			);
+			name = Puzzle;
+			sourceTree = "<group>";
+		};
+		CB41CC571E45B247002358C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB41CC591E45B26A002358C2 /* PuzzleViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		CB4996B81DD410F7004F2FA2 /* OBJFileLoader */ = {
 			isa = PBXGroup;
 			children = (
@@ -691,9 +856,52 @@
 			path = Cocos3DMathLib/OBJReader;
 			sourceTree = "<group>";
 		};
+		CB7765BD1E03ECD800303594 /* NetworkConfig */ = {
+			isa = PBXGroup;
+			children = (
+				CB7765C01E03ECF200303594 /* View */,
+				CB7765BF1E03ECEE00303594 /* Model */,
+				CB7765BE1E03ECE300303594 /* ViewController */,
+			);
+			name = NetworkConfig;
+			sourceTree = "<group>";
+		};
+		CB7765BE1E03ECE300303594 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB7765C41E03ED1E00303594 /* NetworkConfigurationViewController.h */,
+				CB7765C51E03ED1E00303594 /* NetworkConfigurationViewController.m */,
+				CB7765C61E03ED1E00303594 /* NetworkConfigurationViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CB7765BF1E03ECEE00303594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB7765C11E03ED0900303594 /* ConfigManager.h */,
+				CB7765C21E03ED0900303594 /* ConfigManager.m */,
+				CB7765C91E03F3D700303594 /* PPSRoute.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB7765C01E03ECF200303594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		CB78AEDC1D9E09D2000C50BC /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				CB321E9D1E7946A3001A87B4 /* Metal */,
+				CB41CC561E45B239002358C2 /* Puzzle */,
+				CB2433A81E1F85940058CEC8 /* PingTool */,
+				CBE22DC61E1E66BD003C14A5 /* MovedNavigation */,
+				CBE22DB21E1E207F003C14A5 /* CircieTableView */,
+				CB7765BD1E03ECD800303594 /* NetworkConfig */,
 				CB7D17411DE43F1600872856 /* Layer */,
 				CB4996B81DD410F7004F2FA2 /* OBJFileLoader */,
 				CB50BB121DD2C01100CEE872 /* OpenGL ES 2.0 */,
@@ -712,6 +920,7 @@
 				CB78AEE41D9E0A23000C50BC /* View */,
 				CB78AEE31D9E0A19000C50BC /* ViewController */,
 				CB78AEF51D9E0CAC000C50BC /* PrefixHeader.pch */,
+				CB41CC581E45B26A002358C2 /* zlibttees-Bridging-Header.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -735,6 +944,8 @@
 		CB78AEE01D9E09F3000C50BC /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				CB2433A41E1F855F0058CEC8 /* SimplePing */,
+				CBE22DC21E1E4334003C14A5 /* MKActionSheet */,
 				CB50BB4F1DD2D6BB00CEE872 /* OBJReader */,
 				CB50BB1F1DD2C09C00CEE872 /* Cocos3DMathLib */,
 			);
@@ -958,6 +1169,9 @@
 				CB724ABC1DE541280058DCF2 /* LayerTextViewController.h */,
 				CB724ABD1DE541280058DCF2 /* LayerTextViewController.m */,
 				CB724ABE1DE541280058DCF2 /* LayerTextViewController.xib */,
+				CB24339C1E1F71C30058CEC8 /* LayerAnimationViewController.h */,
+				CB24339D1E1F71C30058CEC8 /* LayerAnimationViewController.m */,
+				CB24339E1E1F71C30058CEC8 /* LayerAnimationViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -969,6 +1183,8 @@
 				CB7D174E1DE4418C00872856 /* MyWaveView.m */,
 				CB7D17501DE4429E00872856 /* MyLabel.h */,
 				CB7D17511DE4429E00872856 /* MyLabel.m */,
+				CB2433A11E1F73720058CEC8 /* LayerTestView.h */,
+				CB2433A21E1F73720058CEC8 /* LayerTestView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1031,6 +1247,90 @@
 				CB9DC4DC1DA8E61600E58B9E /* Info.plist */,
 			);
 			path = contentBlocker;
+			sourceTree = "<group>";
+		};
+		CBE22DB21E1E207F003C14A5 /* CircieTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DB51E1E20BE003C14A5 /* Model */,
+				CBE22DB41E1E20B6003C14A5 /* View */,
+				CBE22DB31E1E20A6003C14A5 /* ViewController */,
+			);
+			name = CircieTableView;
+			sourceTree = "<group>";
+		};
+		CBE22DB31E1E20A6003C14A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DB61E1E2124003C14A5 /* ContactViewController.h */,
+				CBE22DB71E1E2124003C14A5 /* ContactViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CBE22DB41E1E20B6003C14A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DB91E1E23DA003C14A5 /* ContactCell.h */,
+				CBE22DBA1E1E23DA003C14A5 /* ContactCell.m */,
+				CBE22DBC1E1E2403003C14A5 /* ContactCircleView.h */,
+				CBE22DBD1E1E2403003C14A5 /* ContactCircleView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CBE22DB51E1E20BE003C14A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DBF1E1E2C9B003C14A5 /* ContactInfo.h */,
+				CBE22DC01E1E2C9B003C14A5 /* ContactInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CBE22DC21E1E4334003C14A5 /* MKActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DC31E1E4351003C14A5 /* MKActionSheet.h */,
+				CBE22DC41E1E4351003C14A5 /* MKActionSheet.m */,
+			);
+			name = MKActionSheet;
+			sourceTree = "<group>";
+		};
+		CBE22DC61E1E66BD003C14A5 /* MovedNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DC91E1E66E4003C14A5 /* Model */,
+				CBE22DC81E1E66DD003C14A5 /* View */,
+				CBE22DC71E1E66D3003C14A5 /* ViewController */,
+			);
+			name = MovedNavigation;
+			sourceTree = "<group>";
+		};
+		CBE22DC71E1E66D3003C14A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DCA1E1E6706003C14A5 /* MovedNavigationBarController.h */,
+				CBE22DCB1E1E6706003C14A5 /* MovedNavigationBarController.m */,
+				CBE22DCC1E1E6706003C14A5 /* MovedNavigationBarController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CBE22DC81E1E66DD003C14A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBE22DCF1E1E681C003C14A5 /* UINavigationBar+SizeableHeight.h */,
+				CBE22DD01E1E681C003C14A5 /* UINavigationBar+SizeableHeight.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CBE22DC91E1E66E4003C14A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		CBF5295B1D9D0ED000011784 /* watch */ = {
@@ -1276,6 +1576,7 @@
 					CB4C2D031D9B57CD0046D782 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = S429W65P38;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -1376,7 +1677,9 @@
 				CB4C2D171D9B57CD0046D782 /* LaunchScreen.storyboard in Resources */,
 				CB0560C41D9D01AC000F12D8 /* IMG_0343.jpg in Resources */,
 				CB78AEFE1D9E1840000C50BC /* MusicHomeViewController.xib in Resources */,
+				CB7765C81E03ED1E00303594 /* NetworkConfigurationViewController.xib in Resources */,
 				CB5D4F1E1D9E651100F4AAB7 /* NaviViewController.xib in Resources */,
+				CB2433A01E1F71C30058CEC8 /* LayerAnimationViewController.xib in Resources */,
 				CB78AEDB1D9E0992000C50BC /* Podfile in Resources */,
 				CB5D4F161D9E445C00F4AAB7 /* MusicCell.xib in Resources */,
 				CB724AB21DE53B4F0058DCF2 /* FFRing.png in Resources */,
@@ -1388,13 +1691,16 @@
 				CB4C2D141D9B57CD0046D782 /* Assets.xcassets in Resources */,
 				CB4996C01DD411DD004F2FA2 /* IMG_1671.jpg in Resources */,
 				CB7D174C1DE43F6700872856 /* LayerViewController.xib in Resources */,
+				CB2433B61E1F89840058CEC8 /* PingViewController.xib in Resources */,
 				CB0560C61D9D029C000F12D8 /* ZipViewController.xib in Resources */,
+				CBE22DCE1E1E6706003C14A5 /* MovedNavigationBarController.xib in Resources */,
 				CB724AB31DE53B4F0058DCF2 /* FFTspark.png in Resources */,
 				CB0560BF1D9CFE20000F12D8 /* SpeechRecognizerViewController.xib in Resources */,
 				CBDB01881D9E1ACF002AF6B7 /* SearchMusicViewController.xib in Resources */,
 				CB958E681D9E40CF004B299D /* HotDetailViewController.xib in Resources */,
 				CB4C2D121D9B57CD0046D782 /* Main.storyboard in Resources */,
 				CB724AAA1DE537DC0058DCF2 /* LayerMainViewController.xib in Resources */,
+				CB321EAC1E7946B4001A87B4 /* cube.png in Resources */,
 				CB724AC01DE541280058DCF2 /* LayerTextViewController.xib in Resources */,
 				CB50BB441DD2C3F500CEE872 /* tile_floor.png in Resources */,
 				CB7751591D9B9E3B0009164D /* 11.mp3 in Resources */,
@@ -1529,41 +1835,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE22DBE1E1E2403003C14A5 /* ContactCircleView.m in Sources */,
+				CB321EAE1E7946B4001A87B4 /* MetalTexture.swift in Sources */,
+				CB321EB11E7946B4001A87B4 /* MetalViewController.swift in Sources */,
 				CB50BB181DD2C04300CEE872 /* OpenGLViewController.m in Sources */,
 				CB724AAE1DE539D30058DCF2 /* LayerEmitterViewController.m in Sources */,
+				CB321EB71E7946B4001A87B4 /* Cube.swift in Sources */,
+				CB2433A31E1F73720058CEC8 /* LayerTestView.m in Sources */,
 				CB50BB5B1DD2D6BB00CEE872 /* OpenGLWaveFrontGroup.m in Sources */,
 				CB50BB5D1DD2D6BB00CEE872 /* OpenGLWaveFrontObject.m in Sources */,
 				CBDB01871D9E1ACF002AF6B7 /* SearchMusicViewController.m in Sources */,
+				CB2433B11E1F874A0058CEC8 /* PingServices.m in Sources */,
 				CB5D4F1C1D9E4D2E00F4AAB7 /* AudioPlayer.m in Sources */,
 				CB724AA91DE537DC0058DCF2 /* LayerMainViewController.m in Sources */,
 				CB50BB5A1DD2D6BB00CEE872 /* OpenGLTexture3D.m in Sources */,
+				CB24339F1E1F71C30058CEC8 /* LayerAnimationViewController.m in Sources */,
 				CB5D4F191D9E478F00F4AAB7 /* GobalData.m in Sources */,
 				CBDB018B1D9E1B9D002AF6B7 /* MusicModel.m in Sources */,
 				CBDB01821D9E1A95002AF6B7 /* HotMusicViewController.m in Sources */,
 				CB958E611D9E3E0C004B299D /* MusicBar.m in Sources */,
+				CB2433A71E1F856B0058CEC8 /* SimplePing.m in Sources */,
+				CBE22DCD1E1E6706003C14A5 /* MovedNavigationBarController.m in Sources */,
+				CB41CC5A1E45B26A002358C2 /* PuzzleViewController.swift in Sources */,
 				CB0560BE1D9CFE20000F12D8 /* SpeechRecognizerViewController.m in Sources */,
 				CB724ABF1DE541280058DCF2 /* LayerTextViewController.m in Sources */,
+				CB7765C31E03ED0900303594 /* ConfigManager.m in Sources */,
+				CB321EB51E7946B4001A87B4 /* BufferProvider.swift in Sources */,
+				CB321EB31E7946B4001A87B4 /* Light.swift in Sources */,
+				CB321EAD1E7946B4001A87B4 /* Matrix4.m in Sources */,
+				CB321EB21E7946B4001A87B4 /* Vertex.swift in Sources */,
 				CB0560C21D9CFFBD000F12D8 /* ZipViewController.m in Sources */,
 				CB0560AF1D9CFBFA000F12D8 /* NaviViewController.m in Sources */,
 				CB4996BE1DD4111D004F2FA2 /* ObjLoaderViewController.m in Sources */,
+				CBE22DC51E1E4351003C14A5 /* MKActionSheet.m in Sources */,
 				CB50BB3E1DD2C26E00CEE872 /* CC3Kazmath.c in Sources */,
+				CBE22DD11E1E681C003C14A5 /* UINavigationBar+SizeableHeight.m in Sources */,
 				CB5D4F151D9E445C00F4AAB7 /* MusicCell.m in Sources */,
+				CB321EB81E7946B4001A87B4 /* Shader.metal in Sources */,
+				CBE22DBB1E1E23DA003C14A5 /* ContactCell.m in Sources */,
 				CB958E671D9E40CF004B299D /* HotDetailViewController.m in Sources */,
 				CB78AEF41D9E0B77000C50BC /* HTTPManager.m in Sources */,
+				CB2433B51E1F89840058CEC8 /* PingViewController.m in Sources */,
+				CBE22DC11E1E2C9B003C14A5 /* ContactInfo.m in Sources */,
 				CB4996C51DD42134004F2FA2 /* ObjLoaderModel.m in Sources */,
 				CB78AEFD1D9E1840000C50BC /* MusicHomeViewController.m in Sources */,
 				CB50BB3F1DD2C26E00CEE872 /* CC3Math.m in Sources */,
 				CBDB018F1D9E38FF002AF6B7 /* MusicViewController.m in Sources */,
+				CB321EB61E7946B4001A87B4 /* Triangle.swift in Sources */,
 				CB0560B21D9CFC25000F12D8 /* BaseViewController.m in Sources */,
 				CB7D174B1DE43F6700872856 /* LayerViewController.m in Sources */,
 				CB50BB5C1DD2D6BB00CEE872 /* OpenGLWaveFrontMaterial.m in Sources */,
 				CB4C2D0F1D9B57CD0046D782 /* ViewController.m in Sources */,
 				CB50BB3D1DD2C26E00CEE872 /* CC3GLMatrix.m in Sources */,
+				CB321EB01E7946B4001A87B4 /* ViewController.swift in Sources */,
+				CBE22DB81E1E2124003C14A5 /* ContactViewController.m in Sources */,
+				CB321EB41E7946B4001A87B4 /* Node.swift in Sources */,
 				CB7D17521DE4429E00872856 /* MyLabel.m in Sources */,
 				CB7D174F1DE4418C00872856 /* MyWaveView.m in Sources */,
 				CB4C2D0C1D9B57CD0046D782 /* AppDelegate.m in Sources */,
 				CB4C2D091D9B57CD0046D782 /* main.m in Sources */,
 				CB50BB1B1DD2C07100CEE872 /* OpenGLView.m in Sources */,
+				CB7765C71E03ED1E00303594 /* NetworkConfigurationViewController.m in Sources */,
+				CB2433AE1E1F85CA0058CEC8 /* PingItem.m in Sources */,
 				CB50BB3C1DD2C26E00CEE872 /* CC3Foundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1828,6 +2161,7 @@
 			baseConfigurationReference = B17676EB701F524E391038E5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = zlibttees/zlibttees.entitlements;
 				DEVELOPMENT_TEAM = S429W65P38;
 				GCC_PREFIX_HEADER = "${SRCROOT}/zlibttees/PrefixHeader.pch";
@@ -1835,6 +2169,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Yuuki.zlibttees;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zlibttees/zlibttees-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1843,6 +2180,7 @@
 			baseConfigurationReference = 44B8BF41EBCE58A7D13CF4DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = zlibttees/zlibttees.entitlements;
 				DEVELOPMENT_TEAM = S429W65P38;
 				GCC_PREFIX_HEADER = "${SRCROOT}/zlibttees/PrefixHeader.pch";
@@ -1850,6 +2188,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Yuuki.zlibttees;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "zlibttees/zlibttees-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

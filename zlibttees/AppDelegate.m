@@ -10,6 +10,7 @@
 #import "NaviViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import <WatchConnectivity/WatchConnectivity.h>
+#import "MovedNavigationBarController.h"
 
 @interface AppDelegate ()<WCSessionDelegate>
 {
@@ -52,6 +53,7 @@
         [[UIApplication sharedApplication] endBackgroundTask:backTaskId];
     }
     return newTaskId;
+    
 }
 
 
@@ -70,9 +72,26 @@
     
     
     
+    NaviViewController *main = [[NaviViewController alloc] init];
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:main];
+    main.tabBarItem.image = [UIImage imageNamed:@"tapbar_lock"];
+//    main.tabBarItem.imageInsets = UIEdgeInsetsMake(1, 1, 1, 1);
     
     
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[NaviViewController alloc] init]];
+    MovedNavigationBarController *moved = [[MovedNavigationBarController alloc] init];
+    moved.title = @"可拉伸NavigationBar";
+    
+    
+    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:moved];
+    moved.tabBarItem.image = [UIImage imageNamed:@"tapbar_lock"];
+//    moved.tabBarItem.imageInsets = UIEdgeInsetsMake(2, 2, 2, 2);
+    
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[nav1,nav2];
+    
+    
+    self.window.rootViewController = tabBarController;
     
     [WCSession defaultSession].delegate = self;
     [[WCSession defaultSession] activateSession];
